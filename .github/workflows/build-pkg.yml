@@ -1,6 +1,7 @@
 name: 📦 Build Package
 
 on:
+    workflow_dispatch:
     push:
         branches: [ main ]
     pull_request:
