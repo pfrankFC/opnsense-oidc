@@ -31,7 +31,7 @@ jobs:
         with:
           envs: 'PLUGIN_NAME PLUGIN_CATEGORY'
           usesh: true
-          release: "15.0"
+          release: "15.1"
           prepare: |
             pkg install -y git gmake
           run: |
